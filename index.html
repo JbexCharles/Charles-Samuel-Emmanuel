@@ -1,0 +1,391 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-css.css">
+    <!--font awesome website-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--material google api-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Compiled and minified CSS Cloudflare -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript @footer-->
+    <!--This is the JS link-->
+    <script src="index-js.js"></script>
+    <title>Charles-Samuel-Emmanuel</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="heading">
+            <nav class="nav-wrapper">
+                <div class="container">
+                    <div class="brand-logo">
+                        <span class="c">C</span><span class="h">harles</span>
+                    </div>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <li class="material-icons">menu</li>
+                    </a>
+                    <div class="others right hide-on-med-and-down">
+                        <ul>
+                            <li><a href="#intro" class="modal-trigger">Intro</a></li>
+                            <li><a href="#resume" class="modal-trigger">Resume</a></li>
+                            <li><a href="#services" class="">Services</a></li>
+                            <li><a href="#services" class="">Samples</a></li>
+                            <li><a href="#contact" class="">contact</a></li>
+                        </ul>
+                    </div>
+                    <nav class="sidenav" id="mobile-links">
+                        <ul>
+                            <li><a href="#intro" class="modal-trigger">Intro</a></li>
+                            <li><a href="#resume" class="modal-trigger">Resume</a></li>
+                            <li><a href="#services" class="modal-trigger">Services</a></li>
+                            <li><a href="#services" class="modal-trigger">Samples</a></li>
+                            <li><a href="#contact" class="modal-trigger">contact</a></li>
+                        </ul>
+                    </nav>
+                    <a href="img/my_pics_main.png" class="right hide-on-med-and-up">
+                        <img src="img/my_pics_main.png" class="circle left" alt="" height="40px">
+                    </a>
+                </div>
+            </nav>
+            <div class="intro">
+                <div class="container">
+                    <div class="grid">
+                        <div class="name-tag">
+                            <h3>Hey, I am <span></span></h3>
+                            <h2>Charles Samuel Emmanuel <span></span></h2>
+                            <h5>A Programmer who specialise in full stack & python dev.. <span></span></h5>
+                        </div>
+                        <div class="btn-larger">
+                            <button class="btn-large modal-trigger" href="#message">Message</button>
+                        </div>
+
+                        <!--adding a modal (a pop up) to the message-->
+
+                        <div class="modal" id="message">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <span>Map</span>
+                                    <p><span>Line</span> (+234)9051880010</p>
+                                    <div class="map" id="map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63612.77960341594!2d7.0096807629425735!3d4.80458696065537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1718488630649!5m2!1sen!2sng" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                    <div class="form" id="myForm">
+                                        <form action="">
+                                            <span>Contact Form</span> 
+                                            <br>
+                                            <input type="name" id="name" name="name" placeholder="Name:">
+                                            <br>
+                                            <input type="name" id="email" name="email" placeholder="Email Address:">
+                                            <br>
+                                            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Your message here: "></textarea>
+                                            <br>
+                                            <br>
+                                            <div class="message-btn center">
+                                                <a class="btn" type="submit">
+                                                    <li class="material-icons right">send</li>
+                                                    <span>Send</span>
+                                                </a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div>
+
+                        
+                        <!--end of adding a modal (a pop up) to the message-->
+
+                        <!-- adding resume modal -->
+
+                        <div class="modal" id="resume">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <span class="span-header">Resume</span>
+                                    <div class="summary">
+                                        <h6>Summary</h6>
+                                        <p>Highly skilled web developer, Python programmer, 2D/3D designer, and UI/UX expert with a passion for creating innovative and user-friendly digital experiences. Proficient in a range of technologies and design tools.
+                                        </p>
+                                    </div>
+                                    <div class="technical-skills">
+                                        <h6>Technical Skills</h6>
+                                        <li>Programming languages: Python, JavaScript, HTML, CSS</li>
+                                        <li>Web development frameworks: Django.</li>
+                                        <li><strong>Design tools: </strong> Adobe Creative Suite (Photoshop, Illustrator, Coreldrawetc.), Blender</li>
+                                        <li>UI/UX design principles and human-centered design approach</li>
+                                        <li>Version control systems: Git, SVN</li>
+                                    </div>
+                                    <div class="professional-experience">
+                                        <h6>Professional Experience</h6>
+                                        <li> <strong>Web Developer,</strong>Spatch Technologies (2020-Present)</li>
+                                        <li> - Designed and developed multiple websites using Python and JavaScript</li>
+                                        <li> - Created 2D/3D visualizations and animations for various projects</li>
+                                        <li> - Improved website performance and user experience through UI/UX enhancements</li>
+                                    </div>
+                                    <div class="education">
+                                        <h6>Education</h6>
+                                        <li> <strong>Bachelor's Degree in Computer Science,</strong>Futo University (2019-2023)</li>
+                                    </div>
+                                    <div class="bachelor-degree">
+                                        <h6>Bachelor Degree</h6>
+                                        <li> <strong>Certified Python Developer, </strong>Futo (2020)</li>
+                                        <li> <strong>UI/UX Design Certification, </strong>Futo (2019)</li>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="" class="modal-close btn green darken-4"><span>Close</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of resume modal -->
+
+                        <!-- modal for intro -->
+
+                        <div class="modal" id="intro">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <span class="span-header">Introduction</span>
+                                <p>Hello! I'm Charles Samuel Emmanuel, a highly skilled and experienced website designer dedicated to crafting exceptional digital experiences. With a keen eye for detail and a passion for innovation, I excel at creating visually stunning, user-friendly, and responsive websites that drive results. My expertise includes HTML, CSS, JavaScript, Python programming UI/UX design, etc. others skills are listed on my about. I'm committed to delivering top-notch solutions that exceed clients' expectations and enhance their online presence. Let's collaborate to bring your vision to life!</p>
+                                <div class="modal-footer">
+                                    <a href="#message" class="modal-trigger btn green darken-4"><span>Hire for...</span></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of modal for intro -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="pick-blit">
+                <div class="container">
+                    <div class="main-img center">
+                        <a href="img/my_pics_main.png" class="hide-on-med-and-down">
+                            <img src="img/my_pics_main.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="rapper-svg">
+            <div class="snow">
+                <div class="container">
+                    <div class="grid-container">
+                        <h4 class="God">God Gives Salvation</h4>
+                        <h4 class="I">I Give Satisfaction</h4>
+                    </div>
+                    <div class="lead hide-on-med-and-up">
+                        <p>God gives Salvation, I give Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="scrollspy">
+        <div class="what-I-do">
+            <div class="listing-header center">
+                <h3>I OFFER THE FOLLOWING SERVICES</h3>
+            </div>
+            <div class="listing-services">
+                <div class="row">
+                    <div class="col s6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/link-12257_256.gif" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title"> Website Designing </span>
+                                <p>I am a full stack web developer who has web development experience for about four(4) to five(5) years now, making me vast in knowledge about web development using HTML, CSS & JS.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#web-dev-more-info" class="modal-trigger green-text darken-4">More Details..</a>
+                                <a href="#message" class="modal-trigger green-text darken-4">Book..</a>
+                            </div>
+                        </div>
+                        <!-- this is for the website modal -->
+
+                        <div class="modal" id="web-dev-more-info">
+                            <div class="container">
+                                <div class="modal-content">
+                                        <div class="web-dev-images">
+                                            <img src="img/websites.png" alt="">
+                                            <div class="web-text-w">
+                                                <p>A creative and skilled web developer with a passion for building innovative, user-friendly, and responsive digital experiences. With a strong foundation in HTML, CSS, JavaScript, and various frameworks like Python Django. I excel at designing and developing fast, secure, and scalable web applications that meet industry standards. I'm committed to writing clean, efficient, and well-documented code, and I'm always eager to explore new technologies and techniques to stay ahead of the curve. Let's collaborate to bring your web vision to life and create a digital presence that engages, informs, and inspires!</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            <div class="modal-footer">
+                                <a href="#message" class="modal-trigger btn white-text">Create Mine</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- this is for the website modal end of code-->
+
+                        <!-- this is for the python modal -->
+
+                        <div class="modal" id="py-dev-more-info">
+                            <div class="container">
+                                <div class="modal-content">
+                                        <div class="py-dev-images">
+                                            <img src="img/python.png" alt="">
+                                            <div class="web-text-w">
+                                                <p>A detail-oriented and innovative Python programmer with a passion for building efficient, scalable, and data-driven solutions. With a strong foundation in computer science and expertise in Python libraries like NumPy, pandas, and Flask, I excel at crafting robust algorithms, analyzing complex data sets, and developing intelligent applications. I'm committed to writing clean, readable, and well-documented code that meets industry standards. Let's collaborate to build cutting-edge software, automate processes, and drive business success with the power of Python!</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            <div class="modal-footer">
+                                <a href="#message" class="modal-trigger btn white-text">Create Mine</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- this is for the website modal end of code-->
+
+                        
+                        <!-- this is for the design modal -->
+
+                        <div class="modal" id="design-dev-more-info">
+                            <div class="container">
+                                <div class="modal-content">
+                                        <div class="py-dev-images">
+                                            <img src="img/graphics.png" alt="">
+                                            <div class="web-text-w">
+                                                <p>Hello! I'm a versatile and creative 2D and 3D designer with a passion for bringing ideas to life. With expertise in Blender, Photoshop, and CorelDRAW, I craft stunning visual content that captivates audiences and drives results. From concept art to 3D modeling, texturing, and rendering, I excel in creating immersive experiences that blend art and technology. My 2D skills include graphic design, digital painting, and image manipulation, ensuring a polished finish to every project. Let's collaborate and bring your vision to life in vibrant colors and striking detail!</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            <div class="modal-footer">
+                                <a href="#message" class="modal-trigger btn white-text">Create Mine</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- this is for the website modal end of code-->
+
+                        <!-- this is for the design modal -->
+
+                        <div class="modal" id="ui&ux-dev-more-info">
+                            <div class="container">
+                                <div class="modal-content">
+                                        <div class="py-dev-images">
+                                            <img src="img/ui&ux.png" alt="">
+                                            <div class="web-text-w">
+                                                <p>Hello! I'm [Your Name], a passionate and user-centered UI/UX designer dedicated to crafting intuitive, visually stunning, and user-friendly digital experiences. With a keen eye for detail and a deep understanding of human behavior, I design interfaces that simplify complex interactions and drive results. My expertise spans user research, wireframing, prototyping, and visual design, with a strong focus on creating accessible and responsive designs that delight users and drive business success. Let's collaborate to create innovative solutions that make a lasting impact!</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            <div class="modal-footer">
+                                <a href="#message" class="modal-trigger btn white-text">Create Mine</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- this is for the ui&ux modal end of code-->
+
+
+                    </div>
+                    <div class="col s6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/eye-12452_256.gif" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Python</span>
+                                <p>I am a python programmer who have three (3) years of experience in the field of programming and have encountere python related challenges causing me to have broad skill in Py..</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#py-dev-more-info" class="modal-trigger green-text darken-4">More Details..</a>
+                                <a href="#message"class="modal-trigger green-text darken-4">Book..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/kid-739_256.gif" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">2D & 3D Design</span>
+                                <p>I am a graphics designer who has advanced knowledge in the photoshop workspace, with wide experience can provide realistic designs both in blender 3D..</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#design-dev-more-info" class="modal-trigger green-text">More Details..</a>
+                                <a href="#message" class="green-text modal-trigger">Book..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/cartoon-629_256.gif" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title"> UI/UX Design </span>
+                                <p>UI & UX are my additional skills to make project human interactive and powerfully beautify to engage the users, and give them a good user experience...</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#ui&ux-dev-more-info" class="modal-trigger green-text">More Details..</a>
+                                <a href="#message" class="green-text modal-trigger">Book..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="scrollspy">
+        <div class="down-down">
+            <div class="down-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 l6">
+                            <div class="mover">
+                                <h6>Social Media</h6>
+                                <div class="row">
+                                    <div class="left">
+                                        <a href="https://www.facebook.com/jacksonbush.me"><span class="fa fa-facebook" style="font-size:20px; color: white;"></span></a>
+                                        <a href="#"><span class="fa fa-instagram" style="font-size: 20px; color: red; padding-left: 10px;"></span></a>
+                                        <a href="#"><span class="fa fa-twitter" style="font-size: 20px; padding-left: 10px; color: white;"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 l6">
+                            <a href="#header"><div class="btn-large green darken-4 right"><span>Contact</span></div></a>
+                        </div>
+                    </div>
+                    <!-- footer -->
+                    <hr>
+                    <div class="row last">
+                        <div class="col s12 l6">
+                            <H6>Charles</H6>
+                        </div>
+                        <div class="col s12 l6">
+                            <div class="rap">
+                                <p class="right">Copyright © 2024 Charles | Your Project is secured</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index-js.js"></script>
+</body>
+</html>
